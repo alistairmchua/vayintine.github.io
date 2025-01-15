@@ -3,16 +3,31 @@
 body {
   background-color: #FFC1CC;
   margin: 0; 
-  display: flex;
-  justify-content: center;
   text-align: center;
 }
+button {
+      padding: 10px 20px;
+      font-size: 18px;
+      background-color: #FF69B4;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      margin: 10px; /* Space between buttons */
+    }
+    button:hover {
+      background-color: #FF1493; /* Change color on hover */
+    }
 </style>
 <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Be my valentine?</title>
 </head>
 <body>
-<h1>Would you be my valentine? 💖💞💕 </h1>
+<h1>💖 Would you be my valentine? 💖 </h1>
+</br>
 <button onclick="window.location.href='yes.html'">YES</button>
+</br>
+<button onclick="window.location.href='no.html'">NO</button>
 </body>
